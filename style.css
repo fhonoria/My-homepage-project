@@ -77,6 +77,10 @@ p {
   display: block;
 }
 
+.app-title {
+  text-align: left;
+}
+
 .description {
   font-size: 18px;
   line-height: 1.5;
@@ -102,4 +106,41 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .app-title {
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 60px;
+  }
+
+  .email-link {
+    font-size: 14px;
+  }
 }
